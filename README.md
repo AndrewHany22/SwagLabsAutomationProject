@@ -176,6 +176,6 @@ allure serve test-output/allure-results
 ## 👨‍💻 Author
 
 **Andrew Hany Wadie**  
-🎓 *Mechatronics Engineer* | 💻 *Software & Automation Tester*  
+🎓 *Mechatronics Engineer* | 💻 *Manual & Automation Tester*  
 📍 *Egypt*  
 🔗 [**LinkedIn Profile**](https://www.linkedin.com/in/andrew-hany-30570428b/)
