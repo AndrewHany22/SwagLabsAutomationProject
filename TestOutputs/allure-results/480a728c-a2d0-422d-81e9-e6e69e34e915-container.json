@@ -1,0 +1,1 @@
+{"uuid":"480a728c-a2d0-422d-81e9-e6e69e34e915","name":"Tests.TC01_LoginTest.setup","children":["0af7bd08-bf5e-44bf-928c-d3243ff34e94"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1760924949197,"stop":1760924951108}],"afters":[],"start":1760924949195,"stop":1760924951110}
