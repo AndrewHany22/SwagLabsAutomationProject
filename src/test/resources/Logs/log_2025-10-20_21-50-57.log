@@ -1,0 +1,16 @@
+[INFO] 2025-10-20 21:50:57 [java:34)] - Edge Browser is Opened
+[INFO] 2025-10-20 21:50:57 [java:36)] - Base Url is Redirected Successfully
+[INFO] 2025-10-20 21:50:57 [java:9)] - Test Case-CheckingNumberOfSelectedProductsTC Started
+[INFO] 2025-10-20 21:50:59 [java:30)] - The Number Of Products 6
+[INFO] 2025-10-20 21:50:59 [java:40)] - Number Of Products on Cart : 6
+[INFO] 2025-10-20 21:50:59 [java:51)] - Number Of Selected Products : 6
+[INFO] 2025-10-20 21:50:59 [java:13)] - Test Case-CheckingNumberOfSelectedProductsTC Passed
+[INFO] 2025-10-20 21:51:00 [java:34)] - Edge Browser is Opened
+[INFO] 2025-10-20 21:51:01 [java:36)] - Base Url is Redirected Successfully
+[INFO] 2025-10-20 21:51:01 [java:9)] - Test Case-addRandomProductsToCartTC Started
+[INFO] 2025-10-20 21:51:02 [java:64)] - Random Number : 3
+[INFO] 2025-10-20 21:51:02 [java:64)] - Random Number : 4
+[INFO] 2025-10-20 21:51:02 [java:64)] - Random Number : 5
+[INFO] 2025-10-20 21:51:02 [java:40)] - Number Of Products on Cart : 3
+[INFO] 2025-10-20 21:51:02 [java:51)] - Number Of Selected Products : 3
+[INFO] 2025-10-20 21:51:02 [java:13)] - Test Case-addRandomProductsToCartTC Passed

@@ -1,0 +1,9 @@
+[INFO] 2025-10-20 23:07:26 [java:34)] - Edge Browser is Opened
+[INFO] 2025-10-20 23:07:26 [java:36)] - Base Url is Redirected Successfully
+[INFO] 2025-10-20 23:07:27 [java:9)] - Test Case-ComparingPricesTC Started
+[INFO] 2025-10-20 23:07:28 [java:70)] - Random Number : 1
+[INFO] 2025-10-20 23:07:28 [java:70)] - Random Number : 2
+[INFO] 2025-10-20 23:07:28 [java:70)] - Random Number : 4
+[INFO] 2025-10-20 23:07:28 [java:104)] - Total Price = 39.98
+[INFO] 2025-10-20 23:07:28 [java:28)] - Total Price = 39.98
+[INFO] 2025-10-20 23:07:28 [java:13)] - Test Case-ComparingPricesTC Passed

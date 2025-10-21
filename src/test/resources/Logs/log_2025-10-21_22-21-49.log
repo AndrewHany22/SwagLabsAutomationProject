@@ -1,0 +1,18 @@
+[INFO] 2025-10-21 22:21:50 [java:50)] - Edge Browser is Opened
+[INFO] 2025-10-21 22:21:50 [java:52)] - Base Url is Redirected Successfully
+[INFO] 2025-10-21 22:21:50 [java:32)] - Test Case-setup Failed
+[ERROR] 2025-10-21 22:21:52 [java:97)] - no such element: Unable to locate element: {"method":"css selector","selector":".shopping_cart_badge"}
+  (Session info: MicrosoftEdge=141.0.3537.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [aaa2382f1665e5bc4809d9368a77401d, findElement {value=shopping_cart_badge, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 141.0.3537.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56562}, msedge: {msedgedriverVersion: 141.0.3537.92 (180f8c4bc303..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56562/devtoo..., se:cdpVersion: 141.0.3537.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aaa2382f1665e5bc4809d9368a77401d
+[INFO] 2025-10-21 22:21:52 [java:9)] - Test Case-CheckingNumberOfSelectedProductsTC Started
+[INFO] 2025-10-21 22:21:52 [java:17)] - Test Case-CheckingNumberOfSelectedProductsTC Skipped
+[INFO] 2025-10-21 22:21:52 [java:9)] - Test Case-ClickingOnCartIconTC Started
+[INFO] 2025-10-21 22:21:52 [java:17)] - Test Case-ClickingOnCartIconTC Skipped
+[INFO] 2025-10-21 22:21:52 [java:9)] - Test Case-addRandomProductsToCartTC Started
+[INFO] 2025-10-21 22:21:52 [java:17)] - Test Case-addRandomProductsToCartTC Skipped

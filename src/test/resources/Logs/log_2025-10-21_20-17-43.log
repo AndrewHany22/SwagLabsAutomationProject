@@ -1,0 +1,19 @@
+[INFO] 2025-10-21 20:17:43 [java:35)] - Edge Browser is Opened
+[INFO] 2025-10-21 20:17:43 [java:37)] - Base Url is Redirected Successfully
+[INFO] 2025-10-21 20:17:43 [java:9)] - Test Case-CheckOutStepTwoTC Started
+[INFO] 2025-10-21 20:17:44 [java:67)] - Random Number : 3
+[INFO] 2025-10-21 20:17:45 [java:67)] - Random Number : 4
+[INFO] 2025-10-21 20:17:45 [java:67)] - Random Number : 5
+[INFO] 2025-10-21 20:17:45 [java:22)] - First Name Andrew Sent Successfully
+[INFO] 2025-10-21 20:17:45 [java:24)] - Last Name Hany Sent Successfully
+[INFO] 2025-10-21 20:17:45 [java:26)] - Postal Code 12345 Sent Successfully
+[INFO] 2025-10-21 20:17:56 [java:24)] - Test Case-CheckOutStepTwoTC Failed
+[ERROR] 2025-10-21 20:18:08 [java:100)] - no such element: Unable to locate element: {"method":"css selector","selector":".shopping_cart_badge"}
+  (Session info: MicrosoftEdge=141.0.3537.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [339319af1d31d01422714b7b81c7321e, findElement {using=class name, value=shopping_cart_badge}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 141.0.3537.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51670}, msedge: {msedgedriverVersion: 141.0.3537.92 (180f8c4bc303..., userDataDir: C:\Users\DELL\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51670/devtoo..., se:cdpVersion: 141.0.3537.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 339319af1d31d01422714b7b81c7321e

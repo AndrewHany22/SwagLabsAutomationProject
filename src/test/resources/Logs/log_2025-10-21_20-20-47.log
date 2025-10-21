@@ -1,0 +1,12 @@
+[INFO] 2025-10-21 20:20:47 [java:35)] - Edge Browser is Opened
+[INFO] 2025-10-21 20:20:47 [java:37)] - Base Url is Redirected Successfully
+[INFO] 2025-10-21 20:20:47 [java:9)] - Test Case-CheckOutStepTwoTC Started
+[INFO] 2025-10-21 20:20:49 [java:67)] - Random Number : 1
+[INFO] 2025-10-21 20:20:49 [java:67)] - Random Number : 3
+[INFO] 2025-10-21 20:20:49 [java:67)] - Random Number : 4
+[INFO] 2025-10-21 20:20:49 [java:22)] - First Name Andrew Sent Successfully
+[INFO] 2025-10-21 20:20:50 [java:24)] - Last Name Hany Sent Successfully
+[INFO] 2025-10-21 20:20:50 [java:26)] - Postal Code 12345 Sent Successfully
+[INFO] 2025-10-21 20:20:50 [java:33)] - Calculated Total Price=  103.65
+[INFO] 2025-10-21 20:20:50 [java:28)] - Actual Total Price=  103.65
+[INFO] 2025-10-21 20:20:50 [java:13)] - Test Case-CheckOutStepTwoTC Passed
