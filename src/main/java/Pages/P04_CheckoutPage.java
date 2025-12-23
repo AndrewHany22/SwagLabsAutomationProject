@@ -10,7 +10,7 @@ public class P04_CheckoutPage {
     private final By FirstName = By.id("first-name");
     private final By LastName = By.id("last-name");
     private final By PostalCode = By.id("postal-code");
-    private final By ContinueButton = By.xpath("//div /input[contains(@class,'cart_button')]");
+    private final By ContinueButton = By.id("continue");
 
 
     public P04_CheckoutPage(WebDriver driver) {

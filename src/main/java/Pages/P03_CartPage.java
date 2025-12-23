@@ -11,8 +11,8 @@ import java.util.List;
 public class P03_CartPage {
     static float TotalPrice = 0;
     private final WebDriver driver;
-    private final By PricesOfSelectedProductsLocator = By.xpath("//button[.='REMOVE'] //preceding-sibling::div[@class='inventory_item_price']");
-    private final By CheckoutButton = By.xpath("//div /a[contains(@class,'checkout_button')]");
+    private final By PricesOfSelectedProductsLocator = By.xpath("//button[text()='Remove']/preceding-sibling::div[@class='inventory_item_price']");
+    private final By CheckoutButton = By.id("checkout");
 
 
     public P03_CartPage(WebDriver driver) {
@@ -23,7 +23,7 @@ public class P03_CartPage {
         try {
             List<WebElement> pricesOfSelectedProducts = driver.findElements(PricesOfSelectedProductsLocator);
             for (int i = 1; i < pricesOfSelectedProducts.size(); i++) {
-                By element = By.xpath("(//button[.='REMOVE'] //preceding-sibling::div[@class='inventory_item_price'])[" + i + "]");
+                By element = By.xpath("(//button[text()='Remove']/preceding-sibling::div[@class='inventory_item_price'])[" + i + "]");
                 String fullText = Utility.getText(driver, element);
                 TotalPrice += Float.parseFloat(fullText.replace("$", ""));
             }

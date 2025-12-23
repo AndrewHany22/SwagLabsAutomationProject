@@ -10,7 +10,7 @@ public class P05_OverviewPage {
     private final By SubTotal = By.className("summary_subtotal_label");
     private final By Tax = By.className("summary_tax_label");
     private final By Total = By.className("summary_total_label");
-    private final By FinishButton = By.xpath("//div /a[contains(@class,'cart_button')]");
+    private final By FinishButton = By.id("finish");
 
     public P05_OverviewPage(WebDriver driver) {
         this.driver = driver;

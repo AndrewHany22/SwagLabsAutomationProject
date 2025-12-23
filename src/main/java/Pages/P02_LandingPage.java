@@ -16,9 +16,9 @@ public class P02_LandingPage {
     private final WebDriver driver;
     private final By addtoCartButtonForAllTheProducts = By.xpath("//button[contains(@class,'btn_inventory')]");
     private final By numberOfProductsOnCartIcon = By.className("shopping_cart_badge");
-    private final By numberOfSelectedProducts = By.xpath("//button[.='REMOVE']");
+    private final By numberOfSelectedProducts = By.xpath("//button[text() ='Remove']");
     private final By CartIcon = By.className("shopping_cart_link");
-    private final By PricesOfSelectedProductsLocator = By.xpath("//button[.='REMOVE'] //preceding-sibling::div[@class='inventory_item_price']");
+    private final By PricesOfSelectedProductsLocator = By.xpath("//button[text()='Remove']/preceding-sibling::div[@class='inventory_item_price']");
 
     public P02_LandingPage(WebDriver driver) {
         this.driver = driver;
@@ -85,7 +85,7 @@ public class P02_LandingPage {
         try {
             List<WebElement> pricesOfSelectedProducts = driver.findElements(PricesOfSelectedProductsLocator);
             for (int i = 1; i < pricesOfSelectedProducts.size(); i++) {
-                By element = By.xpath("(//button[.='REMOVE'] //preceding-sibling::div[@class='inventory_item_price'])[" + i + "]");
+                By element = By.xpath("(//button[text()='Remove']/preceding-sibling::div[@class='inventory_item_price'])[" + i + "]");
                 String fullText = Utility.getText(driver, element);
                 TotalPrice += Float.parseFloat(fullText.replace("$", ""));
             }
